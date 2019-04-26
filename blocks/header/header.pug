@@ -1,0 +1,19 @@
+mixin header()
+	+b.HEADER.header
+		+b.DIV.topbar
+			+b.DIV.container container
+			+icon('pin')
+			+icon('puzzle')
+		.container
+			.col col 1
+			.col col 2
+			.col col 3
+			.col col 4
+
+		//-Список
+		- var list = ["One", "Two", "Three", "Four"]
+		ul.menu
+			each test in list
+				li.menu__item
+					a.menu__link(href="javascript:void(0);")= test
+

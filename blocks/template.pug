@@ -1,0 +1,47 @@
+include _assets/bemto/bemto
+- set_bemto_settings({ modifier: "--" })
+
+mixin icon(name,mod)
+	- mod = mod || ''
+	svg(class="svg-icon svg-icon-" + name + ' ' + mod)
+		use(xlink:href="img/svg/sprite/sprite.svg#" + name)
+
+include head/head
+include header/header
+include footer/footer
+
+
+doctype html
+html(lang="ru")
+
+	block head
+		head
+			+head({
+				"title": "Workshop",
+				"author": "Space Academy",
+				"description": "Workshop"
+			})
+			
+		body
+			.wrapper
+				block header
+					+header
+
+				block content
+					div content
+
+				block footer
+					+footer
+				
+			block vendors
+				// build:js js/vendor.js
+				script( src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js")
+				script.
+					window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')
+				// endbuild
+
+			block scripts
+				// build:js js/main.js
+				script( src="js/main.js")
+				script( src="js/scroll.js")
+				// endbuild

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="41px" height="52px" viewBox="0 0 41 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>icon Визитки</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="41" height="23" rx="2"></rect>
+        <rect id="path-2" x="0" y="29" width="41" height="23" rx="2"></rect>
+        <rect id="path-3" x="6" y="36" width="18" height="2" rx="1"></rect>
+        <rect id="path-4" x="6" y="44" width="5" height="2" rx="1"></rect>
+        <rect id="path-5" x="13" y="44" width="5" height="2" rx="1"></rect>
+        <rect id="path-6" x="6" y="40" width="18" height="2" rx="1"></rect>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#FE9A8B" offset="0%"></stop>
+            <stop stop-color="#FD868C" offset="40.8502073%"></stop>
+            <stop stop-color="#F9748F" offset="73.1505102%"></stop>
+            <stop stop-color="#F78CA0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-8" x="17.4497475" y="8.44974747" width="7" height="7" rx="2"></rect>
+        <rect id="path-9" x="28.4497475" y="37.4497475" width="7" height="7" rx="2"></rect>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Главная" transform="translate(-427.000000, -1045.000000)">
+            <g id="Production" transform="translate(375.000000, 879.000000)">
+                <g id="Визитки" transform="translate(0.000000, 122.000000)">
+                    <g id="icon-Визитки" transform="translate(52.000000, 44.000000)">
+                        <g id="Rectangle-2">
+                            <use fill="#E3E3E3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="1" y="1" width="39" height="21" rx="2"></rect>
+                        </g>
+                        <g id="Rectangle-2">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="1" y="30" width="39" height="21" rx="2"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="7" y="37" width="16" height="1" rx="0.5"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="7" y="45" width="3" height="1" rx="0.5"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="14" y="45" width="3" height="1" rx="0.5"></rect>
+                        </g>
+                        <g id="Rectangle-14">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#4A4A4A" stroke-width="2" x="7" y="41" width="16" height="1" rx="0.5"></rect>
+                        </g>
+                        <g id="Rectangle-13" transform="translate(20.949747, 11.949747) rotate(-45.000000) translate(-20.949747, -11.949747) ">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="url(#linearGradient-7)" stroke-width="2" x="18.4497475" y="9.44974747" width="5" height="5" rx="2"></rect>
+                        </g>
+                        <g id="Rectangle-13" transform="translate(31.949747, 40.949747) rotate(-45.000000) translate(-31.949747, -40.949747) ">
+                            <use fill="#F1F1F1" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="url(#linearGradient-7)" stroke-width="2" x="29.4497475" y="38.4497475" width="5" height="5" rx="2"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
