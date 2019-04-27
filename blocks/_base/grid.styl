@@ -1,8 +1,25 @@
+xxs = "(min-width: 320px)"
+xs = "(min-width: 480px)"
+sm = "(min-width: 767px)"
+_sm = "(max-width: 767px)"
+md = "(min-width: 1024px)"
+_md = "(max-width: 1024px)"
+lg = "(min-width: 1200px)"
+xlg = "(min-width: 1500px)"
+
 .container
   margin 0 auto
   box-sizing border-box
   display flex
-  width 1170px
+  @media xxs
+    width: 100%
+    padding: 0 15px
+  @media sm
+    width: 750px
+  @media md
+    width: 970px
+  @media lg
+    width: 1170px
 
 // container(align = space-between, wrap = wrap)
   // @extends .container
