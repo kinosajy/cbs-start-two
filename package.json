@@ -1,12 +1,12 @@
 {
-  "name": "right_start",
+  "name": "cbs-start-two",
   "version": "1.0.0",
-  "description": "gulp_pug_sass_bem_boilerplate",
+  "description": "gulp_pug_stylus_bem_boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alexandr Ponomarenko",
+  "author": "kinosajy",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.5",
@@ -21,7 +21,6 @@
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^4.0.1",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-stylus": "^2.7.0",
     "gulp-svg-sprite": "^1.5.0",
