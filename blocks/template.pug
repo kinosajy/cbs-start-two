@@ -9,6 +9,10 @@ mixin icon(name,mod)
 include head/head
 include header/header
 include footer/footer
+include _comps/search/search
+include _comps/h-menu/h-menu
+include _comps/tabs/tabs
+include _comps/select/select
 
 
 doctype html
@@ -38,6 +42,10 @@ html(lang="ru")
 				script( src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js")
 				script.
 					window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')
+
+				script(src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.min.js")
+				script.
+					window.jQuery || document.write('<script src="js/svg4everybody.min.js">\x3C/script>')
 				// endbuild
 
 			block scripts

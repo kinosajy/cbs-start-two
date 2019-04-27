@@ -27,21 +27,52 @@
     <div class="wrapper">
       <header class="header">
         <div class="topbar">
-          <div class="container">container
+          <div class="container">
+            <div class="topbar-wrap">
+              <div class="logo">Logo
+              </div>
+              <nav class="topbar-menu">
+                <input id="menuTogle" type="checkbox" name=""/>
+                <div class="menu-btn">
+                  <label class="menuLabel" for="menuTogle"><span class="hamburger-inner"></span></label>
+                  <label class="overlayLabel" for="menuTogle"></label>
+                </div>
+                <ul class="menu" id="menu">
+                  <li class="menu__item"><a class="menu__link" href="#link1">link 1</a>
+                  </li>
+                  <li class="menu__item"><a class="menu__link" href="#link2">link 2</a>
+                  </li>
+                  <li class="menu__item"><a class="menu__link" href="#link3">link 3</a>
+                  </li>
+                  <li class="menu__item"><a class="menu__link" href="#link4">link 4</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
-          <svg class="svg-icon svg-icon-pin ">
-            <use xlink:href="img/svg/sprite/sprite.svg#pin"></use>
-          </svg>
-          <svg class="svg-icon svg-icon-puzzle ">
-            <use xlink:href="img/svg/sprite/sprite.svg#puzzle"></use>
-          </svg>
         </div>
-        <div class="container">
-          <div class="col">col 1</div>
-          <div class="col">col 2</div>
-          <div class="col">col 3</div>
-          <div class="col">col 4</div>
+        <div class="hero">Hero 
         </div>
+        <div class="search">
+          <form action="search" method="post">
+            <input class="find" type="text" name="search" id="story" maxlength="255" value="Поиск" onblur="if(this.value=='') this.value='Поиск';" onfocus="if(this.value=='Поиск') this.value='';"/>
+            <button class="find-btn" type="submit"></button>
+          </form>
+        </div>
+        <div class="tt-tabs">
+          <div class="index-tabs"><span class="tab1 active-ttab">All</span><span class="tab2">Web Design</span><span class="tab3">Mobile App</span></div>
+          <div class="index-panel">
+            <div class="tt-panel tab1">Content 1</div>
+            <div class="tt-panel tab2">Content 2</div>
+            <div class="tt-panel tab3">Content 3</div>
+          </div>
+        </div>
+        <svg class="svg-icon svg-icon-puzzle ">
+          <use xlink:href="img/svg/sprite/sprite.svg#puzzle"></use>
+        </svg>
+        <svg class="svg-icon svg-icon-pin ">
+          <use xlink:href="img/svg/sprite/sprite.svg#pin"></use>
+        </svg>
         <ul class="menu">
           <li class="menu__item"><a class="menu__link" href="javascript:void(0);">One</a></li>
           <li class="menu__item"><a class="menu__link" href="javascript:void(0);">Two</a></li>
@@ -54,7 +85,12 @@
     </div>
     <!-- build:js js/vendor.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
+    <script>
+      window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')
+      
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/svg4everybody.min.js">\x3C/script>')</script>
     <!-- endbuild-->
     <!-- build:js js/main.js-->
     <script src="js/main.js"></script>

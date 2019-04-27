@@ -1,0 +1,5 @@
+mixin search()
+  .search
+    form(action="search" method="post")
+      input(type="text" name="search" class="find" id="story" maxlength="255" value="Поиск" onblur="if(this.value=='') this.value='Поиск';" onfocus="if(this.value=='Поиск') this.value='';") 
+      button(type="submit").find-btn

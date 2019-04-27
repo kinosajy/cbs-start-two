@@ -43,18 +43,6 @@ gulp.task('pug', function() {
 		.pipe(browserSync.stream())
 });
 
-//sass compile
-// gulp.task('sass', function() {
-// 	return gulp.src(paths.blocks + '*.sass')
-// 		.pipe(plumber())
-// 		.pipe(sass().on('error', sass.logError))
-// 		.pipe(prefix({
-// 			browsers: ['last 2 versions'],
-// 			cascade: true
-// 		}))
-// 		.pipe(gulp.dest(paths.devDir + 'css/'))
-// 		.pipe(browserSync.stream());
-// });
 
 //stylus********
 gulp.task('stylus', function() {

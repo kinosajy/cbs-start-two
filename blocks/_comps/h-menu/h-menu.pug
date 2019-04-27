@@ -1,0 +1,17 @@
+mixin h-menu()
+
+  +b.NAV.topbar-menu
+    input#menuTogle(type="checkbox", name="")
+    .menu-btn
+      label.menuLabel(for="menuTogle")
+        span.hamburger-inner
+      label.overlayLabel(for="menuTogle")
+    +b.UL.menu#menu
+      +e.LI.item
+        +e.A.link(href="#link1") link 1
+      +e.LI.item
+        +e.A.link(href="#link2") link 2
+      +e.LI.item
+        +e.A.link(href="#link3") link 3
+      +e.LI.item
+        +e.A.link(href="#link4") link 4

@@ -1,14 +1,24 @@
 mixin header()
 	+b.HEADER.header
+
 		+b.DIV.topbar
-			+b.DIV.container container
-			+icon('pin')
-			+icon('puzzle')
-		.container
-			.col col 1
-			.col col 2
-			.col col 3
-			.col col 4
+			+b.DIV.container
+				+b.DIV.topbar-wrap
+					+b.DIV.logo Logo
+					+h-menu
+
+						
+						
+
+		+b.DIV.hero Hero 
+		+search
+		+tabs
+		+icon('puzzle')
+		+icon('pin')
+
+
+
+
 
 		//-Список
 		- var list = ["One", "Two", "Three", "Four"]

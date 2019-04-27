@@ -1,0 +1,22 @@
+absolute-center()
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%)
+
+absolute-all(num)
+	position: absolute
+	top: num
+	bottom: num
+	right: num
+	left: num
+
+rem(size)
+	return (size/16)rem
+
+size(a, b = false)
+	width a
+	if b
+		height b
+	else
+		height a

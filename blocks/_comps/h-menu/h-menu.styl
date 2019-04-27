@@ -1,0 +1,86 @@
+.menu-btn
+  width: 38px
+  height: 38px
+  display: none
+
+.menu
+	display: inline-block
+	&__item
+		display: inline-block
+		margin-left: rem(30)
+	&__link
+		font-size: 14px
+		text-transform: uppercase
+		color: #555555
+	a.active
+			color: red
+
+.overlayLabel
+	display: none
+	position: fixed
+	z-index: 998
+	left: 0
+	right: 0
+	bottom: 0
+	top: 50px //высота топбара
+	background-color: rgba(#000, .05)
+
+@media (max-width: 1024px)
+	.menu
+		display: none
+		position: absolute
+		right: 0
+		top: 50px //высота топбара
+		background-color: #fff
+		z-index: 999
+		text-align: center
+		padding: 30px 0
+		width: 100%
+		&-btn
+			display: inline-block
+			margin-left: 0
+
+@media (max-width: 768px)
+	.menu
+		&__item
+			display: block
+			margin-left: 0
+			padding: 10px 0
+
+#menuTogle
+	display: none
+.menuLabel
+	display: inline-block
+	position: relative
+	width: 36px
+	height: 36px
+	cursor: pointer
+	span, span::before, span::after
+		width: 24px
+		height: 2px
+		background-color: #000
+		position: absolute
+		left: 50%
+		top: 50%
+		margin-left: -12px
+		border-radius: 2px
+		transition: all .3s ease
+	span::before
+		content: ''
+		top: -7px
+	span::after
+		content: ''
+		top: 7px
+
+#menuTogle:checked ~ .menu
+	display: block
+#menuTogle:checked ~ .menu-btn .menuLabel > span
+	background-color: transparent
+#menuTogle:checked ~ .menu-btn .menuLabel > span::before
+	transform: rotate(45deg)
+	top: 0
+#menuTogle:checked ~ .menu-btn .menuLabel > span::after
+	transform: rotate(-45deg)
+	top: 0
+#menuTogle:checked ~ .menu-btn .overlayLabel
+	display: block
